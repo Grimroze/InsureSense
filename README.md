@@ -1,5 +1,5 @@
 Insurance Premium Predictor (FastAPI + ML)
-
+PS- (This project is not live for now and just a dummy practice project)
 This project is an end-to-end machine learning API that predicts a user's insurance premium category based on personal, lifestyle, and financial data.
 
 The backend is built using FastAPI and integrates a trained machine learning model to provide real-time predictions. The project demonstrates how to deploy ML models in a backend system with proper API design.
