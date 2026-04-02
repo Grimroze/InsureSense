@@ -4,6 +4,13 @@ This project is an end-to-end machine learning API that predicts a user's insura
 
 The backend is built using FastAPI and integrates a trained machine learning model to provide real-time predictions. The project demonstrates how to deploy ML models in a backend system with proper API design.
 
+Features
+FastAPI backend for building REST APIs
+Machine learning model integration
+Feature engineering (BMI, lifestyle risk, age group, city tier)
+Automatic API documentation (Swagger UI and ReDoc)
+Streamlit-based frontend interface
+Clean and modular structure
 How It Works
 The user provides inputs such as age, height, weight, income, occupation, and city
 The backend computes derived features like BMI, lifestyle risk, and age group
@@ -26,33 +33,3 @@ Response:
 {
   "predicted_category": "low"
 }
-API Documentation
-Swagger UI: http://127.0.0.1:8000/docs
-ReDoc: http://127.0.0.1:8000/redoc
-Tech Stack
-FastAPI
-Pydantic
-Scikit-learn
-Pandas
-Streamlit
-Run Locally
-Backend
-uvicorn main:app --reload
-Frontend
-streamlit run app.py
-Purpose
-
-This project demonstrates:
-
-Building REST APIs using FastAPI
-Integrating machine learning models into backend systems
-Performing feature engineering at runtime
-Creating a simple interactive frontend
-Future Improvements
-Add prediction confidence scores
-Integrate caching (e.g., Redis)
-Deploy using Docker and cloud platforms
-Improve model performance and preprocessing pipeline
-Author
-
-Created as a practice project to demonstrate machine learning and backend development skills.
